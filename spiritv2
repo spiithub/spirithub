@@ -9,5 +9,5 @@ elseif game.PlaceId == 7167319176 then --Chicago-Remastered
 elseif game.PlaceId == 1962086868 then --toh
   loadstring(game:HttpGet('https://scripts.luawl.com/10893/TOH.lua'))()
 else
-  game.Players.LocalPlayer:Kick('unsupported game')
+  loadstring(game:HttpGet('https://scripts.luawl.com/11359/Universal.lua'))()
 end
