@@ -2,6 +2,8 @@ if game.PlaceId == 4779613061 then -- sl2
   loadstring(game:HttpGet('https://scripts.luawl.com/10812/SouthLondon.lua'))()
 elseif game.PlaceId == 2788229376 then -- dh
   loadstring(game:HttpGet('https://scripts.luawl.com/10813/DaHood.lua'))()
+elseif game.PlaceId == 7167319176 then -- chciago remastered
+  loadstring(game:HttpGet('https://scripts.luawl.com/10815/ChicagoRemastered.lua'))()
 else
   loadstring(game:HttpGet('https://scripts.luawl.com/11359/Universal.lua'))()
 end
