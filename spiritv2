@@ -2,12 +2,6 @@ if game.PlaceId == 4779613061 then -- sl2
   loadstring(game:HttpGet('https://scripts.luawl.com/10812/SouthLondon.lua'))()
 elseif game.PlaceId == 2788229376 then -- dh
   loadstring(game:HttpGet('https://scripts.luawl.com/10813/DaHood.lua'))()
-elseif game.PlaceId == 5602055394 then --hood modded
-  loadstring(game:HttpGet('https://scripts.luawl.com/10814/HoodModded.lua'))()
-elseif game.PlaceId == 7167319176 then --Chicago-Remastered
-  loadstring(game:HttpGet('https://scripts.luawl.com/10815/ChicagoRemastered.lua'))()
-elseif game.PlaceId == 1962086868 then --toh
-  loadstring(game:HttpGet('https://scripts.luawl.com/10893/TOH.lua'))()
 else
   loadstring(game:HttpGet('https://scripts.luawl.com/11359/Universal.lua'))()
 end
